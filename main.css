@@ -1,0 +1,75 @@
+@import url(//db.onlinewebfonts.com/c/00d5a78493aed4b11e2584ad7cceee49?family=Gilroy+ExtraBold);
+
+*{
+    background-color: black;
+    font-family: "Gilroy ExtraBold", "Sans Serif";
+}
+a{
+    text-decoration: none;
+    font-family: "Gilroy ExtraBold", "Sans Serif";
+    font-size: 35px;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(245, 179, 47);
+}
+
+#top_logo{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bottom_logo{
+    width: 26%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+#staff{
+    text-align: center;
+    font-size: 75px;
+    color: rgb(245, 179, 47);
+}
+
+#staff_list{
+    margin-left: 15%;
+    font-size: 54px;
+    color: white;
+}
+
+#title_head{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(245, 179, 47);
+}
+
+.orange_me{
+    color: rgb(245, 179, 47);
+}
+
+.white_me{
+    color: white;
+}
+#google_doc_links{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    margin: 6px;
+    color: white;
+}
