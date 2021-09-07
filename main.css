@@ -1,0 +1,161 @@
+@import url(//db.onlinewebfonts.com/c/00d5a78493aed4b11e2584ad7cceee49?family=Gilroy+ExtraBold);
+
+*{
+    background-color: black;
+    font-family: "Gilroy ExtraBold", "Sans Serif";
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Gilroy ExtraBold", "Sans Serif";
+    font-size: 40px;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(245, 179, 47);
+}
+
+@media screen and (max-width: 415px){
+    .google_doc_links a{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+#top_logo{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bottom_logo{
+    width: 17%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 
+#banner{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+} */
+
+#staff{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(245, 179, 47);
+}
+
+#staff_list{
+    margin-left: 20%;
+    font-size: 35px;
+    color: white;
+}
+
+#title_head{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(245, 179, 47);
+    margin-bottom: 50px;
+}
+
+.link_boxa{
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-style: solid;
+    border-color: rgb(245, 179, 47);
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.link_boxb{
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-style: solid;
+    border-color: rgb(245, 179, 47);
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.link_boxc{
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-style: solid;
+    border-color: rgb(245, 179, 47);
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.link_boxd{
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-style: solid;
+    border-color: rgb(245, 179, 47);
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.link_boxa p{
+    font-size: 30px;
+}
+
+.link_boxb p{
+    font-size: 30px;
+}
+
+.link_boxc p{
+    font-size: 30px;
+}
+
+.link_boxd p{
+    font-size: 30px;
+}
+
+.google_doc_links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.one_line{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.orange_me{
+    color: rgb(245, 179, 47);
+}
+
+.white_me{
+    color: white;
+}
+
+#give_me_space{
+    margin: 100px;
+}
